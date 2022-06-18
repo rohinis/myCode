@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CntxtMn-SubMn_accessQueue</name>
+   <tag></tag>
+   <elementGuidId>a57f1ca6-5384-4f1f-bc56-bd7a4c44807c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[contains(@class,'react-contextmenu react-contextmenu')]//span[@id='accessQueue']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'accessQueue' or . = 'accessQueue')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>accessQueue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>contextLabel show-text-ellipsis retain-whitespace</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>accessQueue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>accessQueue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;tabs&quot;]/div[@class=&quot;tabs__content&quot;]/div[1]/div[@class=&quot;SplitPane splitpane 
+            hide-splitter vertical&quot;]/div[@class=&quot;Pane vertical Pane2&quot;]/div[@class=&quot;job-monitor-grid-container&quot;]/div[@class=&quot;job-monitor-grid-container-content  last-submitted-open&quot;]/div[@class=&quot;jobgrid-context-menu&quot;]/nav[@class=&quot;react-contextmenu react-contextmenu--visible&quot;]/div[@id=&quot;job_movetoqueue_menu&quot;]/nav[@class=&quot;react-contextmenu-item react-contextmenu-submenu&quot;]/nav[@class=&quot;react-contextmenu react-contextmenu--visible&quot;]/div[@class=&quot;react-contextmenu-item react-contextmenu-item--selected&quot;]/div[@id=&quot;job_cmenu_queue_0&quot;]/span[@id=&quot;accessQueue&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//span[@id='accessQueue'])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='job_cmenu_queue_0']/span)[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='workq'])[3]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Move To Queue'])[2]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='iworkq'])[3]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/nav/nav/div[2]/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>

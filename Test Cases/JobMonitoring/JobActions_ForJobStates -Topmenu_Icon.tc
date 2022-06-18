@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>JobActions_ForJobStates -Topmenu_Icon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa1d459a-e534-45bb-b7da-6afe7041568c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>199c3045-c7fc-450e-974a-df474d42b903</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c10574d8-703c-4518-8bef-8cdfdaacda23</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0974633c-cd4f-4eb4-87d0-82966292f7e9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Running'</defaultValue>
+      <description></description>
+      <id>199c3045-c7fc-450e-974a-df474d42b903</id>
+      <masked>false</masked>
+      <name>jobState</name>
+   </variable>
+   <variable>
+      <defaultValue>'terminate_icon'</defaultValue>
+      <description></description>
+      <id>c10574d8-703c-4518-8bef-8cdfdaacda23</id>
+      <masked>false</masked>
+      <name>jobAction</name>
+   </variable>
+   <variable>
+      <defaultValue>'Running terminate_icon'</defaultValue>
+      <description></description>
+      <id>0974633c-cd4f-4eb4-87d0-82966292f7e9</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+</TestCaseEntity>

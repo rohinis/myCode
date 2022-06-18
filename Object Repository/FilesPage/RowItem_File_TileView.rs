@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RowItem_File_TileView</name>
+   <tag></tag>
+   <elementGuidId>7c591e00-057d-49fb-88ca-a22cd65f4c64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@title = 'RenameLV.txt']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@text='ToRename.txt')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>RenameLV.txt</value>
+   </webElementProperties>
+</WebElementEntity>

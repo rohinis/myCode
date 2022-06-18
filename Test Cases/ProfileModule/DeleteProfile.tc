@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteProfile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43ded695-2e89-4e5e-9b3f-792c2912575a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4343b31b-60fa-4ed8-9029-52a057e6f17f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0300cf62-3068-4779-b99e-ee7267d531f1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d45d70d8-f2f8-48b4-94fb-152c1a5ecfc0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'set as default'</defaultValue>
+      <description></description>
+      <id>4343b31b-60fa-4ed8-9029-52a057e6f17f</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ShellPro-NoFile'</defaultValue>
+      <description></description>
+      <id>0300cf62-3068-4779-b99e-ee7267d531f1</id>
+      <masked>false</masked>
+      <name>proName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ShellScript'</defaultValue>
+      <description></description>
+      <id>d45d70d8-f2f8-48b4-94fb-152c1a5ecfc0</id>
+      <masked>false</masked>
+      <name>AppName</name>
+   </variable>
+</TestCaseEntity>

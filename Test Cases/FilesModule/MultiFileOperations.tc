@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MultiFileOperations</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab990790-a1f6-4f37-b011-8351f93bb015</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6422f61a-59e5-4498-a9c7-aed432c255a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fbd214bf-d998-46fb-956c-96b9951450fa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c621b68-f5ca-4437-875c-7b8b34a301f4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Delete'</defaultValue>
+      <description></description>
+      <id>6422f61a-59e5-4498-a9c7-aed432c255a5</id>
+      <masked>false</masked>
+      <name>userChoice</name>
+   </variable>
+   <variable>
+      <defaultValue>'Compress view'</defaultValue>
+      <description></description>
+      <id>fbd214bf-d998-46fb-956c-96b9951450fa</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Compress'</defaultValue>
+      <description></description>
+      <id>3c621b68-f5ca-4437-875c-7b8b34a301f4</id>
+      <masked>false</masked>
+      <name>TestOperation</name>
+   </variable>
+</TestCaseEntity>

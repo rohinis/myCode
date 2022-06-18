@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_file</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7daf2b88-1375-4586-a13e-ba576b867906</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fbbf9b51-72f4-495f-9cbf-a8e08f06ebf3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02884025-536f-4943-85bd-c1e5dc201c49</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cdf52790-8a83-4b10-8c0b-bed0a592b1c4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Big.txt'</defaultValue>
+      <description></description>
+      <id>fbbf9b51-72f4-495f-9cbf-a8e08f06ebf3</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Create File - list view'</defaultValue>
+      <description></description>
+      <id>02884025-536f-4943-85bd-c1e5dc201c49</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Positive'</defaultValue>
+      <description></description>
+      <id>cdf52790-8a83-4b10-8c0b-bed0a592b1c4</id>
+      <masked>false</masked>
+      <name>userChoice</name>
+   </variable>
+</TestCaseEntity>

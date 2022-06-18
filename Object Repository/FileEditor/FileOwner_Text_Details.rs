@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FileOwner_Text_Details</name>
+   <tag></tag>
+   <elementGuidId>15219926-8c32-4bf9-b534-3a11b4954122</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(contains(text(), 'rohini') or contains(., 'rohini'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>rohini</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;tabs&quot;]/div[@class=&quot;tabs__content&quot;]/div[@class=&quot;filecontent-fileviewer-container&quot;]/div[@class=&quot;filecontent-fileviewer-wrapper&quot;]/div[@class=&quot;SplitPane splitpane  vertical&quot;]/div[@class=&quot;Pane vertical Pane2&quot;]/div[@class=&quot;filecontent-fileviewer-container-wrapper&quot;]/div[@class=&quot;filecontent-fileviewer-container-right&quot;]/div[@class=&quot;file-content-viewer-wrapper&quot;]/div[@class=&quot;file-content-viewer-content-wrapper&quot;]/div[@class=&quot;file-content-viewer-file-details&quot;]/div[2]/ul[@class=&quot;file_Details_list&quot;]/li[2]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/div/div[3]/div[2]/div[2]/ul/li[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Myfile.txt'])[3]/following::li[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Uploading 0 items'])[1]/preceding::li[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='File Owner:']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div[2]/ul/li[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>File_InputFile</name>
+   <tag></tag>
+   <elementGuidId>27db57d2-7c74-4195-8841-68f92b1941e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'bar.fem' or . = 'bar.fem')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[equals(text(),'bar.fem')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>bar.fem</value>
+   </webElementProperties>
+</WebElementEntity>

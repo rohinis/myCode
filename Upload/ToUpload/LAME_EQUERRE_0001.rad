@@ -1,0 +1,44 @@
+#
+/TITLE
+Lame d'equerre - Euler buckling modes computation
+
+/RUN/LAME_EQUERRE/1
+1
+
+/VERS/51
+
+/TFILE
+1
+
+/ANIM/DT
+0.  1
+
+/ANIM/VECT/VEL
+/ANIM/ELEM/VONM
+/ANIM/TENS/STRESS/MEMB
+
+/MON/ON
+
+####################
+# IMPLICIT OPTIONS #
+####################
+
+
+/IMPL/BUCKL
+#Nnuck Shft Niter Incv Maxncv Ipri Isolv
+ 10    0    300   4    16     -1   0
+
+# Static linear computation:
+/IMPL/LINEAR
+  
+  
+# Printout frequency for linear computation:
+/IMPL/PRINT/LINEAR/-1
+
+
+# Linear solver method (direct Cholesky):
+/IMPL/SOLVER/3
+# Iprec  It_max  Itol  Tol
+  5      0       3     0.0
+  
+

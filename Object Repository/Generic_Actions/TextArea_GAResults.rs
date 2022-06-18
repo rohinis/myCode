@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TextArea_GAResults</name>
+   <tag></tag>
+   <elementGuidId>cc1f2fff-23f4-4ae5-baec-ea8fb16c51f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class, 'generic-action-results-view')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>da0c4555-27be-4022-a2a5-baef355ac813</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>generic-action-results-view</value>
+      <webElementGuid>cbf7a213-d83a-4506-8372-81d80c70c60f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

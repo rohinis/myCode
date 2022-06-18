@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CustomAction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4ba251f-b162-46ad-933b-96e17e489f0d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35018b7e-fd4a-49f9-8366-d26271981664</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aedc78c0-dad1-442b-acd0-19852a137b56</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5de6176a-a10a-48e8-8643-1ce5149590b4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'customAction'</defaultValue>
+      <description></description>
+      <id>35018b7e-fd4a-49f9-8366-d26271981664</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Completed'</defaultValue>
+      <description></description>
+      <id>aedc78c0-dad1-442b-acd0-19852a137b56</id>
+      <masked>false</masked>
+      <name>jobState</name>
+   </variable>
+   <variable>
+      <defaultValue>'Input'</defaultValue>
+      <description></description>
+      <id>5de6176a-a10a-48e8-8643-1ce5149590b4</id>
+      <masked>false</masked>
+      <name>userChoice</name>
+   </variable>
+</TestCaseEntity>

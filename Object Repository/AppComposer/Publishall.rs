@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Publishall</name>
+   <tag></tag>
+   <elementGuidId>0248d1c5-2cf8-474e-be75-a53d61551138</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='publish_to_all']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'publish_to_all']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c4ee0638-fc8b-4381-933d-e94795e479f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>publish_to_all</value>
+      <webElementGuid>1ef11fde-0d88-4675-a44e-98bbefe288d3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

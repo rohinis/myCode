@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>JMPanel-AppComp</name>
+   <tag></tag>
+   <elementGuidId>8277b026-d810-494a-922b-b1a9e814bbdb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'TestJm')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'job-detail-pop-header']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dae743a4-3b47-4c05-8bef-730936ae5196</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>job-detail-pop-header</value>
+      <webElementGuid>0797d041-c8c3-4755-a6da-f66d631fbe0f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

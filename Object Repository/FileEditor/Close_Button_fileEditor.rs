@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Close_Button_fileEditor</name>
+   <tag></tag>
+   <elementGuidId>42d580b6-ba88-4929-b0f6-76188c829539</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'job-detail-viewer-close-btn']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='job-detail-viewer-close-btn']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>job-detail-viewer-close-btn</value>
+   </webElementProperties>
+</WebElementEntity>

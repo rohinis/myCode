@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Label_ManageServer</name>
+   <tag></tag>
+   <elementGuidId>49ef75e1-bc1c-4767-b76b-0e0d0993c5cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@id = 'servermanagement_header_label']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>f0bc25fa-abf1-4419-9887-47c3f5abed0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>servermanagement_header_label</value>
+      <webElementGuid>975802b6-d801-462a-9e97-067bf330ff64</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

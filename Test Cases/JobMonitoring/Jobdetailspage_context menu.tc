@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Jobdetailspage_context menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46528f60-6f7f-4c2c-be59-3ffb0f9b167f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a636c84-6f6f-4327-bc88-0f06ed57c48e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b07c6840-6124-403c-88c8-73fd685aac37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>95be6fc3-cb4f-4e7e-aee7-4913d254fd84</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa175b05-32fc-49ca-a330-8cfe38b2837c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Completed'</defaultValue>
+      <description></description>
+      <id>4a636c84-6f6f-4327-bc88-0f06ed57c48e</id>
+      <masked>false</masked>
+      <name>jobState</name>
+   </variable>
+   <variable>
+      <defaultValue>'Open'</defaultValue>
+      <description></description>
+      <id>b07c6840-6124-403c-88c8-73fd685aac37</id>
+      <masked>false</masked>
+      <name>jobAction</name>
+   </variable>
+   <variable>
+      <defaultValue>'Detele check'</defaultValue>
+      <description></description>
+      <id>95be6fc3-cb4f-4e7e-aee7-4913d254fd84</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Output'</defaultValue>
+      <description></description>
+      <id>aa175b05-32fc-49ca-a330-8cfe38b2837c</id>
+      <masked>false</masked>
+      <name>userChoice</name>
+   </variable>
+</TestCaseEntity>

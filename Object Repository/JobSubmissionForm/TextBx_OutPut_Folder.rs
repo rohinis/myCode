@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TextBx_OutPut_Folder</name>
+   <tag></tag>
+   <elementGuidId>e90ffed2-82e9-4ee1-9c82-aba8ccb75767</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='submission_submission_directory_field']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'submission_submission_directory_field']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>submission_submission_directory_field</value>
+   </webElementProperties>
+</WebElementEntity>

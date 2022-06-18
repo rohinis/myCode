@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FileViewer_Operation</name>
+   <tag></tag>
+   <elementGuidId>083d4e19-9ca8-45ba-85ee-8e2be92104e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'filecontent-fileviewer-wrapper')]//span[5]//img[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@title = 'Edit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Edit</value>
+   </webElementProperties>
+</WebElementEntity>

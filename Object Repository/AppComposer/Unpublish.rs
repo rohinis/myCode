@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Unpublish</name>
+   <tag></tag>
+   <elementGuidId>d464767e-275a-4484-b9f5-24b84db11d0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='unity_step_out']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Unpublish' or . = 'Unpublish')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>933ad96a-f276-4dc2-9683-775b1252c4ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Unpublish</value>
+      <webElementGuid>013a8831-57bc-4028-ba8e-f65c5560554d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

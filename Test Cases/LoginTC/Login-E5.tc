@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login-E5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50e02e12-2163-47cd-b705-2a623340b955</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>600a9b79-0286-4a88-b6ef-9cb634b83c49</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Login'</defaultValue>
+      <description></description>
+      <id>600a9b79-0286-4a88-b6ef-9cb634b83c49</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+</TestCaseEntity>

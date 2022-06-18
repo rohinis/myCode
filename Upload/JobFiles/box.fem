@@ -1,0 +1,149 @@
+$
+OPTISTRUCT 4.0
+$
+TITLE = Size Optimization of a Cantilever Beam using Equations
+$
+DESGLB=1111
+$
+SUBCASE       1
+DESOBJ(MIN)=888
+  SPC  =       1
+  LOAD =       2
+$
+BEGIN BULK
+$
+DESVAR,1,Diam1,10,1,20,0.5
+DESVAR,2,Diam2,10,1,20,0.5
+DESVAR,3,Diam3,10,1,20,0.5
+DESVAR,4,Diam4,10,1,20,0.5
+DESVAR,5,Diam5,10,1,20,0.5
+$
+$
+DVPREL2,11,PBAR,1,4,,,111
++,DESVAR,1
+DVPREL2,12,PBAR,2,4,,,111
++,DESVAR,2
+DVPREL2,13,PBAR,3,4,,,111
++,DESVAR,3
+DVPREL2,14,PBAR,4,4,,,111
++,DESVAR,4
+DVPREL2,15,PBAR,5,4,,,111
++,DESVAR,5
+$
+DVPREL2,21,PBAR,1,5,,,122
++,DESVAR,1
+DVPREL2,22,PBAR,2,5,,,122
++,DESVAR,2
+DVPREL2,23,PBAR,3,5,,,122
++,DESVAR,3
+DVPREL2,24,PBAR,4,5,,,122
++,DESVAR,4
+DVPREL2,25,PBAR,5,5,,,122
++,DESVAR,5
+DVPREL2,31,PBAR,1,6,,,122
++,DESVAR,1
+DVPREL2,32,PBAR,2,6,,,122
++,DESVAR,2
+DVPREL2,33,PBAR,3,6,,,122
++,DESVAR,3
+DVPREL2,34,PBAR,4,6,,,122
++,DESVAR,4
+DVPREL2,35,PBAR,5,6,,,122
++,DESVAR,5
+$
+DVPREL2,41,PBAR,1,7,,,133
++,DESVAR,1
+DVPREL2,42,PBAR,2,7,,,133
++,DESVAR,2
+DVPREL2,43,PBAR,3,7,,,133
++,DESVAR,3
+DVPREL2,44,PBAR,4,7,,,133
++,DESVAR,4
+DVPREL2,45,PBAR,5,7,,,133
++,DESVAR,5
+$     
+DEQATN,111,A(D)=PI(1)*D**2/4
+DEQATN,122,I(D)=PI(1)*D**4/64
+DEQATN,133,J(D)=PI(1)*D**4/32
+$
+DRESP1,888,,DISP,,,3,,12
+DRESP1,999,,VOLUME
+$
+DCONSTR,1111,999,,3750.0
+$
+$  GRID Data
+$
+GRID           2       05.0     -5.0    0.0            0
+GRID           4       015.0    -5.0    0.0            0
+GRID           6       025.0    -5.0    0.0            0
+GRID           8       035.0    -5.0    0.0            0
+GRID          10       045.0    -5.0    0.0            0
+GRID          12       055.0    -5.0    0.0            0
+$  RBAR Data
+$
+$  CBAR Elements
+$
+CBAR          19       1       2       40.0     0.0     1.0             +CBR   0
++CBR   0                0.0     0.0     0.0     0.0     0.0     0.0     
+CBAR          20       2       4       60.0     0.0     1.0             +CBR   1
++CBR   1                0.0     0.0     0.0     0.0     0.0     0.0     
+CBAR          21       3       6       80.0     0.0     1.0             +CBR   2
++CBR   2                0.0     0.0     0.0     0.0     0.0     0.0     
+CBAR          22       4       8      100.0     0.0     1.0             +CBR   3
++CBR   3                0.0     0.0     0.0     0.0     0.0     0.0     
+CBAR          23       5      10      120.0     0.0     1.0             +CBR   4
++CBR   4                0.0     0.0     0.0     0.0     0.0     0.0     
+$HMCOLORCOMP                                bars      15
+$HMMOVE                             bars      19      20      21      22      23
+$
+$  PSHELL Data
+$
+$
+$  PSOLID Data
+$
+$
+$  PBAR Data
+$
+$HMNAME PROPS       1p1                              
+PBAR           1       178.54   490.87  490.87  981.74  0.0             
+$HMNAME PROPS       2p2                              
+PBAR           2       178.54   490.87  490.87  981.74  0.0             
+$HMNAME PROPS       3p3                              
+PBAR           3       178.54   490.87  490.87  981.74  0.0             
+$HMNAME PROPS       4p4                              
+PBAR           4       178.54   490.87  490.87  981.74  0.0             
+$HMNAME PROPS       5p5                              
+PBAR           5       178.54   490.87  490.87  981.74  0.0             
+$
+$  PROD Data
+$
+$
+$  MAT1 Data
+$
+$HMNAME MATS       1steel                           
+MAT1           1210000.0        0.3     7.80E-09                
+$
+$------------------------------------------------------------------------------$
+$ HyperMesh Commands for loadcollectors name and color information $
+$------------------------------------------------------------------------------$
+$HMNAME LOADCOLS       1spc
+$HMCOLOR LOADCOLS       1      15
+$
+$HMNAME LOADCOLS       2force
+$HMCOLOR LOADCOLS       2      10
+$
+$
+$  LOAD cards
+$
+$
+$  FORCE Data
+$
+FORCE          2      12       01.0     0.0     0.0     100000.0
+$
+$  SPC Data
+$
+SPC            1       2  1234560.0     
+$
+$  SPC Data
+$
+ENDDATA

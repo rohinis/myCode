@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ellipses</name>
+   <tag></tag>
+   <elementGuidId>26f6ac7c-ebff-470f-a555-6a061afca3fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@class = 'menu-meta-template-icon']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src=&quot;/pbsworks/static/media/icnOptions_16.e99eb97791a6032f742484ca1dbe2b0f.svg&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>b03a36b8-0dba-4a23-91ee-7929955a0d14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-meta-template-icon</value>
+      <webElementGuid>c1c3ac9d-fee7-4a98-a9cc-6b6c80df1ec3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

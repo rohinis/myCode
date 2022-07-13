@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>8d44b7b1-533d-4e3e-bde6-581f7153f85c</testSuiteGuid>
+   <testSuiteGuid>69cb5f57-4ef3-47dd-8e43-bf555400fc9a</testSuiteGuid>
    <testCaseLink>
       <guid>816b7fa5-30db-44a2-b210-fac466f6bb6b</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -78,7 +78,7 @@
    <testCaseLink>
       <guid>7c901d33-1ceb-4e85-8171-fbb84e26639d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AppComposer/App_Composer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -124,7 +124,7 @@
    <testCaseLink>
       <guid>b7524c86-4aa3-4cd2-81e0-f4e6df55ab4e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/PreReq/Pre-Req-Script-For-JobMonitoring-Ops</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -167,7 +167,7 @@
    <testCaseLink>
       <guid>4a984559-80b8-43d0-895f-941253940a5e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/PreReq/Pre-Req-Script-For-JobMonitoring-AllJobs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

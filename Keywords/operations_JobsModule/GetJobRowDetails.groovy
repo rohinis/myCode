@@ -80,6 +80,7 @@ public class GetJobRowDetails {
 				// no jobs  msg
 			}
 		}
+		extentTest.log(Status.PASS, 'Result from listServer '+result)
 		return result
 	}
 

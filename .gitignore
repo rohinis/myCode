@@ -1,5 +1,7 @@
 /.settings/
 /.classpath
 .svn/
-/Reports/
-/ExtentReports/
+.cache/
+/bin/
+
+

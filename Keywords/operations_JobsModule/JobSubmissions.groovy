@@ -265,9 +265,7 @@ public class JobSubmissions {
 
 	@Keyword
 	def printJobState(WebDriver katalonWebDriver,extentTest){
-		def Status = com.relevantcodes.extentreports.Status
-
-		WebUI.click(findTestObject('JobMonitoringPage/JM_SearchBox'))
+				WebUI.click(findTestObject('JobMonitoringPage/JM_SearchBox'))
 		WebUI.setText(findTestObject('JobMonitoringPage/JM_SearchBox'),GlobalVariable.G_JobID)
 		WebUI.sendKeys(findTestObject('JobMonitoringPage/JM_SearchBox'), Keys.chord(Keys.ENTER))
 

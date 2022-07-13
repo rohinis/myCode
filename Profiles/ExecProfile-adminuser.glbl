@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>ExecProfile-adminuser</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'pbsworks'</initValue>
+      <initValue>'adminuser'</initValue>
       <name>G_userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'pbsworks'</initValue>
+      <initValue>'adminuser'</initValue>
       <name>G_Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'pbsworks'</initValue>
-      <name>G_AdminUser</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'pbsworks'</initValue>
-      <name>G_AdminPasswd</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'1.pbsaccesslnc'</initValue>
+      <initValue>''</initValue>
       <name>G_JobID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://10.75.22.62:4443/pbsworks'</initValue>
+      <initValue>'https://lnc:4443/pbsworks'</initValue>
       <name>G_BaseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -48,6 +38,11 @@
       <description></description>
       <initValue>''</initValue>
       <name>G_JobIdFromDetails</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_BrowserVersion</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -71,18 +66,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Windows'</initValue>
+      <initValue>'Linux'</initValue>
       <name>G_HostMachine</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>G_PBSHostName</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'BookMark1'</initValue>
-      <name>G_bookmark</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -91,8 +76,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/stage'</initValue>
-      <name>G_StageArea</name>
+      <initValue>''</initValue>
+      <name>G_PBSHostName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

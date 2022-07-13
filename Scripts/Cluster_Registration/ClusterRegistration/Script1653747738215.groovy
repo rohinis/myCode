@@ -33,6 +33,9 @@ CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
 def addBtn
 def lblMngSrv
 def colid='name'
+def result
+String SSName
+
 WebUI.delay(2)
 
 try
@@ -48,108 +51,132 @@ try
 	switch (userChoice)
 	{
 		case 'valid':
-			WebUI.rightClick(findTestObject('Cluster_Registration/Available'))
-			WebUI.delay(3)
-			WebUI.click(findTestObject('Cluster_Registration/Delete'))
-			extentTest.log(Status.PASS, 'Delete Existing Cluster')
+		WebUI.rightClick(findTestObject('Cluster_Registration/Available'))
+		WebUI.delay(3)
+		WebUI.click(findTestObject('Cluster_Registration/Delete'))
+		extentTest.log(Status.PASS, 'Delete Existing Cluster')
 
-			WebUI.click(findTestObject('FilesPage/Confirm_button'))
-			extentTest.log(Status.PASS, 'Click on Ok button')
+		WebUI.click(findTestObject('FilesPage/Confirm_button'))
+		extentTest.log(Status.PASS, 'Click on Ok button')
 
-			WebUI.click(findTestObject('Cluster_Registration/Configure_Services'))
-			extentTest.log(Status.PASS, 'Click on Configure Service')
+		WebUI.click(findTestObject('Cluster_Registration/Configure_Services'))
+		extentTest.log(Status.PASS, 'Click on Configure Service')
 
-			WebUI.click(findTestObject('Cluster_Registration/Server_Name'))
-			WebUI.setText(findTestObject('Cluster_Registration/Server_Name'),server)
-			extentTest.log(Status.PASS, 'Add server name'+ server)
+		WebUI.click(findTestObject('Cluster_Registration/Server_Name'))
+		WebUI.setText(findTestObject('Cluster_Registration/Server_Name'),server)
+		extentTest.log(Status.PASS, 'Add server name'+ server)
 
-			WebUI.click(findTestObject('Cluster_Registration/Url'))
-			WebUI.setText(findTestObject('Cluster_Registration/Url'),url)
-			extentTest.log(Status.PASS, 'Add url' + url)
+		WebUI.click(findTestObject('Cluster_Registration/Url'))
+		WebUI.setText(findTestObject('Cluster_Registration/Url'),url)
+		extentTest.log(Status.PASS, 'Add url' + url)
 
-			WebUI.click(findTestObject('Cluster_Registration/Username'))
-			WebUI.setText(findTestObject('Cluster_Registration/Username'),username)
-			extentTest.log(Status.PASS, 'Add username' + username)
+		WebUI.click(findTestObject('Cluster_Registration/Username'))
+		WebUI.setText(findTestObject('Cluster_Registration/Username'),username)
+		extentTest.log(Status.PASS, 'Add username' + username)
 
-			WebUI.click(findTestObject('Cluster_Registration/Password'))
-			WebUI.setText(findTestObject('Cluster_Registration/Password'),password)
-			extentTest.log(Status.PASS, 'Add password' + password)
+		WebUI.click(findTestObject('Cluster_Registration/Password'))
+		WebUI.setText(findTestObject('Cluster_Registration/Password'),password)
+		extentTest.log(Status.PASS, 'Add password' + password)
 
-			WebUI.click(findTestObject('Cluster_Registration/Rootdir'))
-			WebUI.setText(findTestObject('Cluster_Registration/Rootdir'),rootdir)
-			extentTest.log(Status.PASS, 'Add root directory' )
+		WebUI.click(findTestObject('Cluster_Registration/Rootdir'))
+		WebUI.setText(findTestObject('Cluster_Registration/Rootdir'),rootdir)
+		extentTest.log(Status.PASS, 'Add root directory' )
 
-			addBtn = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Cluster_Registration/Add_Server'),
-					5 , extentTest ,'add server')
+		addBtn = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Cluster_Registration/Add_Server'),
+		5 , extentTest ,'add server')
 
-			WebUI.click(findTestObject('Cluster_Registration/Add_Server'))
-			extentTest.log(Status.PASS, 'Click on add server')
+		WebUI.click(findTestObject('Cluster_Registration/Add_Server'))
+		extentTest.log(Status.PASS, 'Click on add server')
 
-			lblMngSrv=CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Object Repository/Cluster_Registration/Label_ManageServer'),
-					15 , extentTest ,'Manage Server heading')
-
-			if (lblMngSrv) {
-
-				result = CustomKeywords.'operations_JobsModule.GetJobRowDetails.listServer'(katalonWebDriver, colid, server,extentTest)
-				extentTest.log(Status.PASS, 'Verifed the cluster')
-
-			}
-
-			break
-
-		case'edit':
-			WebUI.rightClick(findTestObject('Cluster_Registration/Available'))
-			WebUI.delay(3)
-			WebUI.click(findTestObject('Cluster_Registration/Edit'))
-			extentTest.log(Status.PASS, 'Edit Existing Cluster')
-
-			WebUI.click(findTestObject('Cluster_Registration/Username'))
-			WebUI.clearText(findTestObject('Cluster_Registration/Username'))
-			WebUI.setText(findTestObject('Cluster_Registration/Username'),username)
-
-			WebUI.click(findTestObject('Cluster_Registration/Password'))
-			WebUI.clearText(findTestObject('Cluster_Registration/Password'))
-			WebUI.setText(findTestObject('Cluster_Registration/Password'),password)
-
-
-			WebUI.click(findTestObject('Cluster_Registration/Addrootdir'))
-
-			WebUI.click(findTestObject('Cluster_Registration/root_dir1'))
-			WebUI.setText(findTestObject('Cluster_Registration/root_dir1'),rootdir1)
-			extentTest.log(Status.PASS, 'Click on add root dir')
-
-			WebUI.click(findTestObject('Cluster_Registration/Add_Server'))
-			extentTest.log(Status.PASS, 'Click on add server')
-
-			lblMngSrv=CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Object Repository/Cluster_Registration/Label_ManageServer'),
-					15 , extentTest ,'Manage Server heading')
+		lblMngSrv=CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Object Repository/Cluster_Registration/Label_ManageServer'),
+		15 , extentTest ,'Manage Server heading')
+		extentTest.log(Status.PASS, 'Manage Server lable status - '+lblMngSrv)
+		
+		if (lblMngSrv) {
 
 			result = CustomKeywords.'operations_JobsModule.GetJobRowDetails.listServer'(katalonWebDriver, colid, server,extentTest)
+			extentTest.log(Status.PASS, 'Verifed the cluster')
 
-			break
+		}
+		else
+		{
+			SSName='Addserver'
+			String screenShotPath = (('ExtentReports/' + SSName) + GlobalVariable.G_Browser) + '.png'
+			WebUI.takeScreenshot(screenShotPath)
+			String p = (SSName + GlobalVariable.G_Browser) + '.png'
+			extentTest.log(Status.FAIL, 'Manage server page not loaded')
+			extentTest.fail(MediaEntityBuilder.createScreenCaptureFromPath(p).build())
+		}
+
+		break
+
+		case'edit':
+		WebUI.rightClick(findTestObject('Cluster_Registration/Available'))
+		WebUI.delay(3)
+		WebUI.click(findTestObject('Cluster_Registration/Edit'))
+		extentTest.log(Status.PASS, 'Edit Existing Cluster')
+
+		WebUI.click(findTestObject('Cluster_Registration/Username'))
+		WebUI.clearText(findTestObject('Cluster_Registration/Username'))
+		WebUI.setText(findTestObject('Cluster_Registration/Username'),username)
+
+		WebUI.click(findTestObject('Cluster_Registration/Password'))
+		WebUI.clearText(findTestObject('Cluster_Registration/Password'))
+		WebUI.setText(findTestObject('Cluster_Registration/Password'),password)
+
+
+		WebUI.click(findTestObject('Cluster_Registration/Addrootdir'))
+
+		WebUI.click(findTestObject('Cluster_Registration/root_dir1'))
+		WebUI.setText(findTestObject('Cluster_Registration/root_dir1'),rootdir1)
+		extentTest.log(Status.PASS, 'Click on add root dir')
+
+		WebUI.click(findTestObject('Cluster_Registration/Add_Server'))
+		extentTest.log(Status.PASS, 'Click on add server')
+
+		lblMngSrv=CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Object Repository/Cluster_Registration/Label_ManageServer'),
+		15 , extentTest ,'Manage Server heading')
+		extentTest.log(Status.PASS, 'Manage Server lable status - '+lblMngSrv)
+		if (lblMngSrv)
+		{
+
+			result = CustomKeywords.'operations_JobsModule.GetJobRowDetails.listServer'(katalonWebDriver, colid, server,extentTest)
+			extentTest.log(Status.PASS, 'Verifed the cluster')
+
+		}
+				else
+		{
+			SSName='EditServer'
+			String screenShotPath = (('ExtentReports/' + SSName) + GlobalVariable.G_Browser) + '.png'
+			WebUI.takeScreenshot(screenShotPath)
+			String p = (SSName + GlobalVariable.G_Browser) + '.png'
+			extentTest.log(Status.FAIL, 'Manage server page not loaded')
+			extentTest.fail(MediaEntityBuilder.createScreenCaptureFromPath(p).build())
+		}
+		break
 
 		case 'delete':
 
-			WebUI.delay(2)
-			WebUI.rightClick(findTestObject('Cluster_Registration/Available'))
-			WebUI.delay(1)
-			WebUI.click(findTestObject('Cluster_Registration/Delete'))
-			extentTest.log(Status.PASS, 'Delete Existing Cluster')
+		WebUI.delay(2)
+		WebUI.rightClick(findTestObject('Cluster_Registration/Available'))
+		WebUI.delay(1)
+		WebUI.click(findTestObject('Cluster_Registration/Delete'))
+		extentTest.log(Status.PASS, 'Delete Existing Cluster')
 
-			WebUI.click(findTestObject('FilesPage/Confirm_button'))
-			extentTest.log(Status.PASS, 'Click on Ok')
+		WebUI.click(findTestObject('FilesPage/Confirm_button'))
+		extentTest.log(Status.PASS, 'Click on Ok')
 
-			lblMngSrv=CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(	findTestObject('Object Repository/Cluster_Registration/text_noServer')	,
-					15 , extentTest ,'Configure one or more servers - Link ')
+		lblMngSrv=CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(	findTestObject('Object Repository/Cluster_Registration/text_noServer')	,
+		15 , extentTest ,'Configure one or more servers - Link ')
 
-			if (lblMngSrv) {
-				result=true
-				extentTest.log(Status.PASS, 'Verifed the cluster is deleted ')
-			}
+		if (lblMngSrv) {
+			result=true
+			extentTest.log(Status.PASS, 'Verifed the cluster is deleted ')
+		}
 
 
 
-			break
+		break
 	}
 
 	if (result) {
@@ -163,7 +190,7 @@ try
 
 catch (Exception ex) {
 	println("From TC - "+GlobalVariable.G_ReportFolder )
-		String screenShotPath = (('ExtentReports/' + TestCaseName) + GlobalVariable.G_Browser) + '.png'
+	String screenShotPath = (('ExtentReports/' + TestCaseName) + GlobalVariable.G_Browser) + '.png'
 	WebUI.takeScreenshot(screenShotPath)
 	String p = (TestCaseName + GlobalVariable.G_Browser) + '.png'
 	extentTest.log(Status.FAIL, ex)
@@ -182,4 +209,3 @@ finally {
 	extentTest.log(Status.PASS, 'Closing the browser after executinge test case - '+ TestCaseName)
 
 }
- 

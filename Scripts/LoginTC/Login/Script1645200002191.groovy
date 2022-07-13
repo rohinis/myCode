@@ -1,22 +1,16 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import com.assertthat.selenium_shutterbug.utils.web.Browser
+import com.aventstack.extentreports.MediaEntityBuilder
+import com.aventstack.extentreports.Status
 import com.kms.katalon.core.exception.StepErrorException
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-
 import internal.GlobalVariable
 
-import com.aventstack.extentreports.ExtentReports
-import com.aventstack.extentreports.ExtentTest
-import com.aventstack.extentreports.MediaEntityBuilder
-import com.aventstack.extentreports.Status
-
-
 //====================================================================================
-ReportFile = (GlobalVariable.G_ReportName + '.html')
-ExtentReports extent = CustomKeywords.'generateReports.GenerateReport.createSpark'(ReportFile, GlobalVariable.G_Browser, GlobalVariable.G_BrowserVersion)
-ExtentTest  extentTest = extent.createTest(TestCaseName)
+def extentTest=GlobalVariable.G_ExtentTest
 //=====================================================================================
 
 
@@ -31,7 +25,7 @@ WebUI.setText(findTestObject('LoginPage/password_txtbx'), GlobalVariable.G_Passw
 WebUI.click(findTestObject('LoginPage/login_btn'))
 extentTest.log(Status.PASS, 'Entered Creds - username - '+GlobalVariable.G_userName +' password - '+GlobalVariable.G_Password)
 
-extentTest.log
+
 
 
 def jobsTab = (new customWait.WaitForElement()).WaitForelementPresent(findTestObject('NewJobPage/AppList_ShellScript'),	10,extentTest, 'Application - ShellScript loaded ')
@@ -44,14 +38,15 @@ else {
 
 	def errorMsg=WebUI.verifyElementPresent(findTestObject('Object Repository/GenericObjects/Msg_loginError'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 	if(errorMsg) {
-		def timeOut=20
+		def timeOut=5
+		int i=0 
 		while (errorMsg == true && i<timeOut) {
 			WebUI.delay(1)
 
 			errorMsg=WebUI.verifyElementPresent(findTestObject('Object Repository/GenericObjects/Msg_loginError'), 1)
 			i++
 		}
-		WebUI.click(findTestObject('LoginPage/login_btn'))
+	extentTest.log(Status.FAIL, 'Login Error !!! ')
 	}
 }
 
@@ -75,10 +70,9 @@ catch (StepErrorException e) {
 }
 finally {
 		extentTest.log(Status.PASS, 'Closing the browser after executinge test case - '+ TestCaseName)
-	extent.flush()
+	
+
 }
-
-
 
 
 

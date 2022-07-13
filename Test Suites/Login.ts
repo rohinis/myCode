@@ -158,7 +158,7 @@
    <testCaseLink>
       <guid>82ced03f-7aaa-42ba-bdd7-98affd114250</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/FileOperations</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -178,6 +178,19 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>7b950ced-8cb3-43ce-a472-81090d4db7f5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dec77954-891c-427a-a7c3-944a836ca0ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LoginTC/Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aad6d6cb-1f26-456b-9773-05a5bd992555</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

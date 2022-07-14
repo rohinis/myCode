@@ -78,7 +78,7 @@
    <testCaseLink>
       <guid>7c901d33-1ceb-4e85-8171-fbb84e26639d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AppComposer/App_Composer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -124,7 +124,7 @@
    <testCaseLink>
       <guid>b7524c86-4aa3-4cd2-81e0-f4e6df55ab4e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/PreReq/Pre-Req-Script-For-JobMonitoring-Ops</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
